@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="corresponding.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#">MyPortfolio</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1 class="hero-title">Hi, I'm <span>Sharjeel Rahman</span></h1>
+        <h2 class="hero-subtitle">Frontend Developer</h2>
+        <p class="hero-description">
+          I build exceptional digital experiences with modern web technologies.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- <img src="Assets/sharjeel1.png" alt="Profile Image" /> -->
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="about-content">
+          <h2 class="about-title">About Me</h2>
+          <div class="about-text">
+            <p>
+              Hello! I'm Sharjeel Rahman, a passionate Frontend Developer
+              currently pursuing my BCA (3rd Year). For the past two years, I've
+              been immersed in the world of web development, transforming ideas
+              into interactive digital experiences.
+            </p>
+            <p>
+              I began my coding journey by solving 20+ problems on LeetCode
+              using JavaScript, which helped me develop strong problem-solving
+              skills and logical thinking. While I haven't maintained this
+              practice regularly in recent months, that experience gave me
+              valuable exposure to algorithms and data structures.
+            </p>
+            <p>
+              Currently, I'm focused on frontend development, building practical
+              projects to strengthen my real-world implementation skills. I'm
+              particularly interested in creating responsive, user-friendly
+              interfaces and learning modern JavaScript frameworks to enhance my
+              development capabilities.
+            </p>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="coding-stats">
+            <div class="stat-item">
+              <div class="stat-number">20+</div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">2</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">1000+</div>
+              <div class="stat-label">Hours Coding</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <div class="section-header">
+        <h2>My Projects</h2>
+        <p>Some of my recent work</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-thumbnail">
+            <img src="Assets/collegeDemo.png" alt="College Demo" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">College Demo</h3>
+            <p class="project-description">
+              A responsive College Demo website with modern design and
+              animations.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sharjeelxyz/Project---College-Web.git"
+                class="project-link"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-thumbnail">
+            <img src="Assets/tiktaktoe.png" alt="tiktaktoe" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Tik tak toe</h3>
+            <p class="project-description">
+              A game of Tik tak toe made using HTML, CSS and JavaScript.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sharjeelxyz/Tic-tac-toe.git"
+                class="project-link"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-thumbnail">
+            <img src="Assets/ageCalculator.png" alt="agecal" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Age Calculator</h3>
+            <p class="project-description">
+              It calculates the age of a person based on the year of birth.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sharjeelxyz/Age-Calculator.git"
+                class="project-link"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="extraProjects">
+        There are many more projects in my GitHub repository
+        <span
+          ><a href="https://github.com/sharjeelxyz" target="_blank"
+            >@sharjeelxyz</a
+          ></span
+        >
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="section-header">
+        <h2>My Skills</h2>
+        <p>Technologies I work with</p>
+      </div>
+
+      <div class="skills-container">
+        <!-- Web Development -->
+        <div class="skills-category">
+          <h3 class="skills-title">Web Development</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <i class="fab fa-html5"></i>
+              <span>HTML</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-css3-alt"></i>
+              <span>CSS</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-js"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-react"></i>
+              <span>React</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-bootstrap"></i>
+              <span>Bootstrap</span>
+          </div>
+          </div>
+        </div>
+
+        <!-- Programming Languages -->
+        <div class="skills-category">
+          <h3 class="skills-title">Programming Languages</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <i class="fas fa-code"></i>
+              <span>C</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-code"></i>
+              <span>C++</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-java"></i>
+              <span>Java</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-python"></i>
+              <span>Python</span>
+            </div>
+          
+        </div>
+
+        <!-- Coming Soon -->
+        <!-- <div class="skills-category">
+          <h3 class="skills-title">Learning</h3>
+          <div class="skills-list">
+            <div class="skill-item coming-soon">
+              <i class="fab fa-react"></i>
+              <span>React</span>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <p>Feel free to reach out for collaborations or just to say hello!</p>
+      </div>
+
+      <div class="contact-container">
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <form action="#" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>sharjeelrahman98@example.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fab fa-github"></i>
+            <div>
+              <h3>GitHub</h3>
+              <a href="https://github.com/sharjeelxyz" target="_blank"
+                >github.com/sharjeelxyz</a
+              >
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fab fa-linkedin"></i>
+            <div>
+              <h3>LinkedIn</h3>
+              <a href="www.linkedin.com/in/sharjeelxyz" target="_blank"
+                >linkedin.com/in/sharjeelxyz</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
