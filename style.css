@@ -20,8 +20,8 @@ body,
 
 header {
   width: 100%;
-  background-color: #383f79f0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.392);
+  background-color: #fffffff0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.145);
   position: fixed;
   top: 0;
   left: 0;
@@ -43,12 +43,12 @@ header {
   text-decoration: none;
   font-size: 1.8rem;
   font-weight: bold;
-  color: #00ffff;
+  color: #002323;
   transition: color 0.3s ease-in-out;
 }
 
 .logo a:hover {
-  color: #ff4d4d;
+  color: #ff4d4d9c;
 }
 
 /* Nav links */
@@ -64,7 +64,7 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: #ddd;
+  color: #4d4d4d;
   font-size: 1.1rem;
   padding: 0.5rem;
   transition: color 0.3s ease-in-out;
